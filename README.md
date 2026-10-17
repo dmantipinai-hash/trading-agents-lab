@@ -4,18 +4,33 @@
 
 **Why open the bots but not the core:** bot algorithms are textbook (mean-reversion, Donchian breakout, funding/basis). Anyone can write a bot. What is rare is the discipline layer that decides whether an intent becomes an order. The reports below show the system trading daily — and you can't reconstruct the "why" behind accept/reject from anything published here. That is by design.
 
+## What is public here — and what is not
+
+Public (~1% of the system, the visible tip):
+- Bot source code: signal computation, order-wrapping, session lifecycle, own risk limits (TP/SL/time-stop).
+- The intent-protocol client (`core_interface/`) — the wire format bots speak to the core.
+- Anonymized trade reports: outcomes (entries/exits/PnL/exit reasons), per-bot and per-epoch.
+
+Not public (~99%, under the waterline — never will be in this repo):
+- The Trade Core itself: risk engine, intent arbitration, fencing, position ledger, kill switch.
+- Core-side rejection reasons (why a specific intent became an order — or didn't).
+- Config, infrastructure and operational detail.
+
+Even with every public file, a rebuilt system will not trade the same way: the decision center keeps evolving (the next stage lands after 2026-10-21), and it is the part that decides what each bot is actually allowed to do.
+
 ## Repository layout
 
-- `bots/` — four demo bots, production code, stdlib-only Python:
+- `bots/` — demo bots, production code, stdlib-only Python:
   - `bot_v1.py` — lazy market-maker (ADA): bid entries, fixed TP/SL, session adoption.
   - `bot_v2.py` — hybrid mean-reversion (ENA/DOGE): regime-aware entries, epoch-isolated PnL.
   - `bot_v3.py` — Donchian breakout (XRP): 24h channel entry, 12h channel exit.
   - `basis_bot.py` + `basis_scanner.py` — spot/perp basis capture with two-leg atomic intent groups.
-  - `donchian.py`, `botlog.py`, `bybit_api.py` — shared indicator, logging, and signed-request plumbing (keys read from env files, never hardcoded).
+  - `donchian.py`, `botlog.py`, `bybit_api.py`, `exsync.py`, `position_state.py`, `vol_filter.py` — shared plumbing. `bybit_api.py` is a thin request-signing wrapper: keys are read from local env files at runtime, nothing is embedded.
 - `core_interface/` — the ONLY public surface of the private core: a thin socket client (`hello → fencing_token → intent → result`). Bots speak this protocol; the implementation behind the socket stays closed.
-- `reports/` — anonymized trade history from the live demo run:
-  - `closed_trades_anonymized.csv` — 582 closed trades (symbol, qty, entries/exits, net PnL after fees, exit reason, epoch, UTC timestamps).
-  - `bot_statistics.md` — per-epoch aggregates: counts, win rates, net PnL.
+- `reports/` — anonymized trade history from the live demo run, per bot:
+  - `bot-v1_trades.md`, `bot-v2_trades.md`, `bot-v3_trades.md` — full trade lists, one file per bot.
+  - `bot_statistics.md` — summary per bot + per-epoch aggregates.
+  - `closed_trades_anonymized.csv` — raw data (582 closed trades).
 
 ## The numbers, honestly
 
