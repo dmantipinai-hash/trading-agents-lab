@@ -1,6 +1,6 @@
 # bot-v2 — trade history
 
-**251 closed trades · net -1.8489 USDT · winrate 59%** (after fees, demo)
+**256 closed trades · net -2.0955 USDT · winrate 59%** (after fees, demo)
 
 | # | symbol | epoch | qty | entry | exit | net PnL | exit reason | closed (UTC) |
 |---|---|---|---|---|---|---|---|---|
@@ -255,3 +255,8 @@
 | 249 | ENAUSDT | v2-ena | 25.0 | 0.20322 | 0.20069 | -0.0670 | SL | 2026-10-25T15:25 |
 | 250 | ENAUSDT | v2-ena | 25.0 | 0.20707 | 0.20452 | -0.0694 | SL | 2026-10-26T12:42 |
 | 251 | ENAUSDT | v2-ena | 25.0 | 0.2021 | 0.19953 | -0.0680 | SL | 2026-10-28T12:46 |
+| 252 | ENAUSDT | v2-ena | 25.0 | 0.20758 | 0.20508 | -0.0682 | SL | 2026-10-29T13:24 |
+| 253 | ENAUSDT | v2-ena | 24.0 | 0.21123 | 0.20836 | -0.0726 | SL | 2026-10-29T14:47 |
+| 254 | ENAUSDT | v2-ena | 25.0 | 0.20857 | 0.21024 | +0.0397 | TP | 2026-10-29T15:08 |
+| 255 | ENAUSDT | v2-ena | 24.0 | 0.21582 | 0.21309 | -0.0712 | SL | 2026-10-29T16:51 |
+| 256 | ENAUSDT | v2-ena | 27.0 | 0.18929 | 0.18668 | -0.0743 | SL | 2026-10-30T13:23 |

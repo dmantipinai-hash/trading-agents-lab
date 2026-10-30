@@ -1,16 +1,16 @@
 # Bot statistics — per-epoch aggregates (demo, anonymized)
 
-Source: `closed_trades_anonymized.csv` (794 closed trades, 2026-09-16 → 2026-10-28 UTC).
+Source: `closed_trades_anonymized.csv` (851 closed trades, 2026-09-16 → 2026-10-30 UTC).
 Net PnL is after fees, USDT. Epoch = a distinct parameter/strategy generation; statistics never mix epochs.
 
 ## Per-bot summary
 
 | bot | strategy | trades | net PnL | winrate | report |
 |---|---|---|---|---|---|
-| **bot-v1** | lazy market-maker | 348 | **-1.5264** | 43% | [bot-v1_trades.md](bot-v1_trades.md) |
-| **bot-v2** | hybrid mean-reversion | 251 | **-1.8489** | 59% | [bot-v2_trades.md](bot-v2_trades.md) |
+| **bot-v1** | lazy market-maker | 349 | **-1.5495** | 42% | [bot-v1_trades.md](bot-v1_trades.md) |
+| **bot-v2** | hybrid mean-reversion | 256 | **-2.0955** | 59% | [bot-v2_trades.md](bot-v2_trades.md) |
 | **bot-v3** | Donchian breakout | 7 | **-0.3452** | 29% | [bot-v3_trades.md](bot-v3_trades.md) |
-| *unattributed* | settled outside bot sessions | 188 | *+1.6572* | 63% | — (in CSV) |
+| *unattributed* | settled outside bot sessions | 239 | *+2.0172* | 63% | — (in CSV) |
 
 ## Per-epoch detail
 
@@ -21,13 +21,13 @@ Net PnL is after fees, USDT. Epoch = a distinct parameter/strategy generation; s
 | DOGEUSDT | v2-hybrid | 12 | +0.0216 | +0.2592 | 83% |
 | ADAUSDT | v1-revival | 35 | +0.0068 | +0.2391 | 57% |
 | DOGEUSDT | v4-vol | 107 | -0.0026 | -0.2773 | 63% |
-| ADAUSDT | v4-vol | 294 | -0.0057 | -1.6898 | 41% |
-| ENAUSDT | v2-hybrid | 124 | +0.0112 | +1.3852 | 76% |
-| ENAUSDT | v2-ena | 132 | -0.0141 | -1.8555 | 55% |
+| ADAUSDT | v4-vol | 295 | -0.0058 | -1.7129 | 41% |
+| ENAUSDT | v2-hybrid | 158 | +0.0113 | +1.7878 | 76% |
+| ENAUSDT | v2-ena | 137 | -0.0153 | -2.1021 | 53% |
 | XRPUSDT | v3-donchian | 7 | -0.0493 | -0.3452 | 29% |
-| ADAUSDT | v2-hybrid | 57 | -0.0008 | -0.0478 | 37% |
+| ADAUSDT | v2-hybrid | 74 | -0.0012 | -0.0904 | 36% |
 
-Total: 794 trades, net ≈ **-2.06 USDT** across the live demo window.
+Total: 851 trades, net ≈ **-1.97 USDT** across the live demo window.
 
 ## Reading guide
 

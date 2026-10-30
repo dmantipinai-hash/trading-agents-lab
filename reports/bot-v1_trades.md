@@ -1,6 +1,6 @@
 # bot-v1 — trade history
 
-**348 closed trades · net -1.5264 USDT · winrate 43%** (after fees, demo)
+**349 closed trades · net -1.5495 USDT · winrate 42%** (after fees, demo)
 
 | # | symbol | epoch | qty | entry | exit | net PnL | exit reason | closed (UTC) |
 |---|---|---|---|---|---|---|---|---|
@@ -352,5 +352,6 @@
 | 346 | ADAUSDT | v4-vol | 25.0 | 0.2044 | 0.2047 | +0.0037 | TIME | 2026-10-28T12:15 |
 | 347 | ADAUSDT | v4-vol | 26.0 | 0.2019 | 0.2019 | -0.0058 | SESSION-END | 2026-10-28T14:45 |
 | 348 | ADAUSDT | v4-vol | 26.0 | 0.201 | 0.2025 | +0.0332 | SESSION-END | 2026-10-28T17:45 |
+| 349 | ADAUSDT | v4-vol | 25.0 | 0.2042 | 0.2035 | -0.0231 | SESSION-END | 2026-10-29T17:45 |
 
 *Note: the v1 epoch is the bot's first two days on XRPUSDT (archived session-end variant) before it moved to ADAUSDT.*
