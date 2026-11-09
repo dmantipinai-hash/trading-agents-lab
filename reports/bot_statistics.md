@@ -1,33 +1,32 @@
 # Bot statistics — per-epoch aggregates (demo, anonymized)
 
-Source: `closed_trades_anonymized.csv` (851 closed trades, 2026-09-16 → 2026-10-30 UTC).
+Source: `closed_trades_anonymized.csv` (1007 closed trades, 2026-09-16 → 2026-11-09 UTC).
 Net PnL is after fees, USDT. Epoch = a distinct parameter/strategy generation; statistics never mix epochs.
 
 ## Per-bot summary
 
 | bot | strategy | trades | net PnL | winrate | report |
 |---|---|---|---|---|---|
-| **bot-v1** | lazy market-maker | 349 | **-1.5495** | 42% | [bot-v1_trades.md](bot-v1_trades.md) |
-| **bot-v2** | hybrid mean-reversion | 256 | **-2.0955** | 59% | [bot-v2_trades.md](bot-v2_trades.md) |
-| **bot-v3** | Donchian breakout | 7 | **-0.3452** | 29% | [bot-v3_trades.md](bot-v3_trades.md) |
-| *unattributed* | settled outside bot sessions | 239 | *+2.0172* | 63% | — (in CSV) |
+| **bot-v1** | lazy market-maker | 516 | **-2.0938** | 41% | [bot-v1_trades.md](bot-v1_trades.md) |
+| **bot-v2** | hybrid mean-reversion | 468 | **-1.2141** | 64% | [bot-v2_trades.md](bot-v2_trades.md) |
+| **bot-v3** | Donchian breakout | 13 | **-0.6326** | 23% | [bot-v3_trades.md](bot-v3_trades.md) |
+| *unattributed* | settled outside bot sessions | 10 | *+0.5429* | 80% | — (in CSV) |
 
 ## Per-epoch detail
 
 | symbol | epoch | trades | avg PnL | net PnL | winrate |
 |---|---|---|---|---|---|
 | XRPUSDT | v1 | 19 | -0.0039 | -0.0748 | 42% |
-| XRPUSDT | v2-hybrid | 7 | +0.0491 | +0.3437 | 57% |
+| XRPUSDT | v2-hybrid | 5 | +0.0746 | +0.3729 | 60% |
 | DOGEUSDT | v2-hybrid | 12 | +0.0216 | +0.2592 | 83% |
 | ADAUSDT | v1-revival | 35 | +0.0068 | +0.2391 | 57% |
 | DOGEUSDT | v4-vol | 107 | -0.0026 | -0.2773 | 63% |
-| ADAUSDT | v4-vol | 295 | -0.0058 | -1.7129 | 41% |
-| ENAUSDT | v2-hybrid | 158 | +0.0113 | +1.7878 | 76% |
-| ENAUSDT | v2-ena | 137 | -0.0153 | -2.1021 | 53% |
-| XRPUSDT | v3-donchian | 7 | -0.0493 | -0.3452 | 29% |
-| ADAUSDT | v2-hybrid | 74 | -0.0012 | -0.0904 | 36% |
+| ADAUSDT | v4-vol | 462 | -0.0049 | -2.2572 | 40% |
+| ENAUSDT | v2-hybrid | 5 | +0.0388 | +0.1940 | 100% |
+| ENAUSDT | v2-ena | 349 | -0.0035 | -1.2207 | 63% |
+| XRPUSDT | v3-donchian | 13 | -0.0487 | -0.6326 | 23% |
 
-Total: 851 trades, net ≈ **-1.97 USDT** across the live demo window.
+Total: 1007 trades, net ≈ **-3.40 USDT** across the live demo window.
 
 ## Reading guide
 
