@@ -1,14 +1,14 @@
 # Bot statistics — per-epoch aggregates (demo, anonymized)
 
-Source: `closed_trades_anonymized.csv` (1007 closed trades, 2026-09-16 → 2026-11-09 UTC).
+Source: `closed_trades_anonymized.csv` (1043 closed trades, 2026-09-16 → 2026-11-11 UTC).
 Net PnL is after fees, USDT. Epoch = a distinct parameter/strategy generation; statistics never mix epochs.
 
 ## Per-bot summary
 
 | bot | strategy | trades | net PnL | winrate | report |
 |---|---|---|---|---|---|
-| **bot-v1** | lazy market-maker | 516 | **-2.0938** | 41% | [bot-v1_trades.md](bot-v1_trades.md) |
-| **bot-v2** | hybrid mean-reversion | 468 | **-1.2141** | 64% | [bot-v2_trades.md](bot-v2_trades.md) |
+| **bot-v1** | lazy market-maker | 536 | **-2.4028** | 41% | [bot-v1_trades.md](bot-v1_trades.md) |
+| **bot-v2** | hybrid mean-reversion | 484 | **-1.4039** | 63% | [bot-v2_trades.md](bot-v2_trades.md) |
 | **bot-v3** | Donchian breakout | 13 | **-0.6326** | 23% | [bot-v3_trades.md](bot-v3_trades.md) |
 | *unattributed* | settled outside bot sessions | 10 | *+0.5429* | 80% | — (in CSV) |
 
@@ -21,12 +21,12 @@ Net PnL is after fees, USDT. Epoch = a distinct parameter/strategy generation; s
 | DOGEUSDT | v2-hybrid | 12 | +0.0216 | +0.2592 | 83% |
 | ADAUSDT | v1-revival | 35 | +0.0068 | +0.2391 | 57% |
 | DOGEUSDT | v4-vol | 107 | -0.0026 | -0.2773 | 63% |
-| ADAUSDT | v4-vol | 462 | -0.0049 | -2.2572 | 40% |
+| ADAUSDT | v4-vol | 482 | -0.0053 | -2.5662 | 39% |
 | ENAUSDT | v2-hybrid | 5 | +0.0388 | +0.1940 | 100% |
-| ENAUSDT | v2-ena | 349 | -0.0035 | -1.2207 | 63% |
+| ENAUSDT | v2-ena | 365 | -0.0039 | -1.4105 | 63% |
 | XRPUSDT | v3-donchian | 13 | -0.0487 | -0.6326 | 23% |
 
-Total: 1007 trades, net ≈ **-3.40 USDT** across the live demo window.
+Total: 1043 trades, net ≈ **-3.90 USDT** across the live demo window.
 
 ## Reading guide
 

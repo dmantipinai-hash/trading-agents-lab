@@ -1,6 +1,6 @@
 # bot-v1 — trade history
 
-**516 closed trades · net -2.0938 USDT · winrate 41%** (after fees, demo)
+**536 closed trades · net -2.4028 USDT · winrate 41%** (after fees, demo)
 
 | # | symbol | epoch | qty | entry | exit | net PnL | exit reason | closed (UTC) |
 |---|---|---|---|---|---|---|---|---|
@@ -520,5 +520,25 @@
 | 514 | ADAUSDT | v4-vol | 28.0 | 0.181 | 0.182 | +0.0242 | SESSION-END | 2026-11-09T15:45 |
 | 515 | ADAUSDT | v4-vol | 28.0 | 0.1805 | 0.1793 | -0.0374 | SESSION-END | 2026-11-09T16:45 |
 | 516 | ADAUSDT | v4-vol | 29.0 | 0.1793 | 0.1783 | -0.0329 | SESSION-END | 2026-11-09T17:45 |
+| 517 | ADAUSDT | v4-vol | 29.0 | 0.1779 | 0.1781 | +0.0001 | TIME | 2026-11-10T12:15 |
+| 518 | ADAUSDT | v4-vol | 29.0 | 0.178 | 0.1773 | -0.0242 | UNKNOWN | 2026-11-10T12:45 |
+| 519 | ADAUSDT | v4-vol | 29.0 | 0.1772 | 0.1752 | -0.0636 | UNKNOWN | 2026-11-10T13:30 |
+| 520 | ADAUSDT | v4-vol | 29.0 | 0.1746 | 0.176 | +0.0368 | UNKNOWN | 2026-11-10T13:33 |
+| 521 | ADAUSDT | v4-vol | 29.0 | 0.176 | 0.1761 | -0.0027 | SESSION-END | 2026-11-10T13:45 |
+| 522 | ADAUSDT | v4-vol | 29.0 | 0.1761 | 0.1775 | +0.0368 | UNKNOWN | 2026-11-10T14:36 |
+| 523 | ADAUSDT | v4-vol | 29.0 | 0.1773 | 0.1771 | -0.0115 | UNKNOWN | 2026-11-10T14:45 |
+| 524 | ADAUSDT | v4-vol | 29.0 | 0.1775 | 0.1752 | -0.0705 | UNKNOWN | 2026-11-10T15:31 |
+| 525 | ADAUSDT | v4-vol | 29.0 | 0.1751 | 0.1725 | -0.0809 | UNKNOWN | 2026-11-10T15:41 |
+| 526 | ADAUSDT | v4-vol | 30.0 | 0.1723 | 0.1714 | -0.0327 | SESSION-END | 2026-11-10T15:45 |
+| 527 | ADAUSDT | v4-vol | 30.0 | 0.1739 | 0.172 | -0.0627 | UNKNOWN | 2026-11-10T16:35 |
+| 528 | ADAUSDT | v4-vol | 30.0 | 0.1719 | 0.1733 | +0.0399 | UNKNOWN | 2026-11-10T16:44 |
+| 529 | ADAUSDT | v4-vol | 30.0 | 0.1721 | 0.1715 | -0.0219 | UNKNOWN | 2026-11-10T17:45 |
+| 530 | ADAUSDT | v4-vol | 29.0 | 0.1765 | 0.1765 | -0.0056 | UNKNOWN | 2026-11-11T12:15 |
+| 531 | ADAUSDT | v4-vol | 29.0 | 0.1765 | 0.1759 | -0.0212 | UNKNOWN | 2026-11-11T12:45 |
+| 532 | ADAUSDT | v4-vol | 29.0 | 0.1766 | 0.1764 | -0.0096 | UNKNOWN | 2026-11-11T13:45 |
+| 533 | ADAUSDT | v4-vol | 29.0 | 0.177 | 0.1767 | -0.0143 | UNKNOWN | 2026-11-11T14:45 |
+| 534 | ADAUSDT | v4-vol | 29.0 | 0.1773 | 0.1787 | +0.0385 | UNKNOWN | 2026-11-11T15:35 |
+| 535 | ADAUSDT | v4-vol | 29.0 | 0.1797 | 0.1788 | -0.0300 | UNKNOWN | 2026-11-11T15:45 |
+| 536 | ADAUSDT | v4-vol | 29.0 | 0.1783 | 0.1781 | -0.0097 | UNKNOWN | 2026-11-11T16:45 |
 
 *Note: the v1 epoch is the bot's first two days on XRPUSDT (archived session-end variant) before it moved to ADAUSDT.*
