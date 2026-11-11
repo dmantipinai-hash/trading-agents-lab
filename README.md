@@ -30,11 +30,11 @@ Even with every public file, a rebuilt system will not trade the same way: the d
 - `reports/` — anonymized trade history from the live demo run, per bot:
   - `bot-v1_trades.md`, `bot-v2_trades.md`, `bot-v3_trades.md` — full trade lists, one file per bot.
   - `bot_statistics.md` — summary per bot + per-epoch aggregates.
-  - `closed_trades_anonymized.csv` — raw data (1007 closed trades).
+  - `closed_trades_anonymized.csv` — raw data (1043 closed trades).
 
 ## The numbers, honestly
 
-Demo account. ~8 weeks of live cron-driven trading (2026-09-16 → 2026-11-09). Net result across 1007 trades is roughly **flat** — commissions eat the edge at this size. Published as-is: the point of this repo is the *architecture* (verifiable, risk-gated autonomy), not a get-rich claim. Bots that survive weeks of continuous live cron operation without position drift or orphaned orders are the actual product here.
+Demo account. ~8 weeks of live cron-driven trading (2026-09-16 → 2026-11-11). Net result across 1043 trades is roughly **flat** — commissions eat the edge at this size. Published as-is: the point of this repo is the *architecture* (verifiable, risk-gated autonomy), not a get-rich claim. Bots that survive weeks of continuous live cron operation without position drift or orphaned orders are the actual product here.
 
 ## Design notes (the iceberg metaphor)
 
