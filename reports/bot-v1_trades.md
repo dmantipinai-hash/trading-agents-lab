@@ -1,6 +1,6 @@
 # bot-v1 — trade history
 
-**536 closed trades · net -2.4028 USDT · winrate 41%** (after fees, demo)
+**568 closed trades · net -2.4610 USDT · winrate 40%** (after fees, demo)
 
 | # | symbol | epoch | qty | entry | exit | net PnL | exit reason | closed (UTC) |
 |---|---|---|---|---|---|---|---|---|
@@ -540,5 +540,37 @@
 | 534 | ADAUSDT | v4-vol | 29.0 | 0.1773 | 0.1787 | +0.0385 | UNKNOWN | 2026-11-11T15:35 |
 | 535 | ADAUSDT | v4-vol | 29.0 | 0.1797 | 0.1788 | -0.0300 | UNKNOWN | 2026-11-11T15:45 |
 | 536 | ADAUSDT | v4-vol | 29.0 | 0.1783 | 0.1781 | -0.0097 | UNKNOWN | 2026-11-11T16:45 |
+| 537 | ADAUSDT | v4-vol | 29.0 | 0.1793 | 0.1797 | +0.0059 | UNKNOWN | 2026-11-11T17:45 |
+| 538 | ADAUSDT | v4-vol | 30.0 | 0.1721 | 0.172 | -0.0069 | UNKNOWN | 2026-11-12T12:15 |
+| 539 | ADAUSDT | v4-vol | 30.0 | 0.172 | 0.172 | -0.0057 | UNKNOWN | 2026-11-12T12:16 |
+| 540 | ADAUSDT | v4-vol | 30.0 | 0.1718 | 0.172 | +0.0021 | UNKNOWN | 2026-11-12T12:17 |
+| 541 | ADAUSDT | v4-vol | 30.0 | 0.1719 | 0.1719 | -0.0039 | UNKNOWN | 2026-11-12T12:21 |
+| 542 | ADAUSDT | v4-vol | 30.0 | 0.1719 | 0.1714 | -0.0207 | UNKNOWN | 2026-11-12T12:45 |
+| 543 | ADAUSDT | v4-vol | 30.0 | 0.17 | 0.1708 | +0.0202 | UNKNOWN | 2026-11-12T13:45 |
+| 544 | ADAUSDT | v4-vol | 30.0 | 0.1698 | 0.1677 | -0.0686 | UNKNOWN | 2026-11-12T14:23 |
+| 545 | ADAUSDT | v4-vol | 31.0 | 0.1677 | 0.169 | +0.0364 | UNKNOWN | 2026-11-12T14:31 |
+| 546 | ADAUSDT | v4-vol | 30.0 | 0.1687 | 0.17 | +0.0352 | UNKNOWN | 2026-11-12T14:39 |
+| 547 | ADAUSDT | v4-vol | 30.0 | 0.1699 | 0.169 | -0.0326 | UNKNOWN | 2026-11-12T14:45 |
+| 548 | ADAUSDT | v4-vol | 31.0 | 0.168 | 0.1689 | +0.0240 | UNKNOWN | 2026-11-12T15:45 |
+| 549 | ADAUSDT | v4-vol | 30.0 | 0.171 | 0.1715 | +0.0111 | UNKNOWN | 2026-11-12T16:22 |
+| 550 | ADAUSDT | v4-vol | 30.0 | 0.1714 | 0.1716 | +0.0021 | UNKNOWN | 2026-11-12T16:22 |
+| 551 | ADAUSDT | v4-vol | 30.0 | 0.1714 | 0.1714 | -0.0039 | UNKNOWN | 2026-11-12T16:24 |
+| 552 | ADAUSDT | v4-vol | 30.0 | 0.1714 | 0.1714 | -0.0057 | UNKNOWN | 2026-11-12T16:25 |
+| 553 | ADAUSDT | v4-vol | 30.0 | 0.1712 | 0.1712 | -0.0056 | UNKNOWN | 2026-11-12T16:25 |
+| 554 | ADAUSDT | v4-vol | 30.0 | 0.1711 | 0.1709 | -0.0116 | UNKNOWN | 2026-11-12T16:26 |
+| 555 | ADAUSDT | v4-vol | 30.0 | 0.1699 | 0.1701 | +0.0022 | UNKNOWN | 2026-11-12T17:15 |
+| 556 | ADAUSDT | v4-vol | 30.0 | 0.17 | 0.17 | -0.0038 | UNKNOWN | 2026-11-12T17:16 |
+| 557 | ADAUSDT | v4-vol | 30.0 | 0.1699 | 0.1699 | -0.0038 | UNKNOWN | 2026-11-12T17:17 |
+| 558 | ADAUSDT | v4-vol | 30.0 | 0.1699 | 0.1698 | -0.0068 | UNKNOWN | 2026-11-12T17:18 |
+| 559 | ADAUSDT | v4-vol | 30.0 | 0.1698 | 0.1699 | -0.0026 | UNKNOWN | 2026-11-12T17:19 |
+| 560 | ADAUSDT | v4-vol | 30.0 | 0.1709 | 0.1709 | -0.0038 | UNKNOWN | 2026-11-12T17:30 |
+| 561 | ADAUSDT | v4-vol | 30.0 | 0.1719 | 0.172 | -0.0009 | UNKNOWN | 2026-11-13T12:15 |
+| 562 | ADAUSDT | v4-vol | 30.0 | 0.1719 | 0.1715 | -0.0159 | UNKNOWN | 2026-11-13T12:45 |
+| 563 | ADAUSDT | v4-vol | 30.0 | 0.1711 | 0.1725 | +0.0399 | UNKNOWN | 2026-11-13T13:30 |
+| 564 | ADAUSDT | v4-vol | 30.0 | 0.1717 | 0.1731 | +0.0399 | UNKNOWN | 2026-11-13T13:32 |
+| 565 | ADAUSDT | v4-vol | 29.0 | 0.1742 | 0.1741 | -0.0085 | UNKNOWN | 2026-11-13T13:45 |
+| 566 | ADAUSDT | v4-vol | 30.0 | 0.1734 | 0.1734 | -0.0057 | UNKNOWN | 2026-11-13T14:45 |
+| 567 | ADAUSDT | v4-vol | 30.0 | 0.1715 | 0.1692 | -0.0728 | SL | 2026-11-13T15:36 |
+| 568 | ADAUSDT | v4-vol | 30.0 | 0.1693 | 0.1699 | +0.0124 | UNKNOWN | 2026-11-13T15:45 |
 
 *Note: the v1 epoch is the bot's first two days on XRPUSDT (archived session-end variant) before it moved to ADAUSDT.*
