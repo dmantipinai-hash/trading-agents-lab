@@ -1,6 +1,6 @@
 # bot-v3 — trade history
 
-**15 closed trades · net -0.8865 USDT · winrate 20%** (after fees, demo)
+**17 closed trades · net -0.7923 USDT · winrate 24%** (after fees, demo)
 
 | # | symbol | epoch | qty | entry | exit | net PnL | exit reason | closed (UTC) |
 |---|---|---|---|---|---|---|---|---|
@@ -19,3 +19,5 @@
 | 13 | XRPUSDT | v3-donchian | 4.4 | 1.1683 | 1.149 | -0.0907 | UNKNOWN | 2026-11-08T20:40 |
 | 14 | XRPUSDT | v3-donchian | 5.3 | 0.9772 | 0.9503 | -0.1488 | OTHER | 2026-11-17T15:50 |
 | 15 | XRPUSDT | v3-donchian | 5.2 | 0.9936 | 0.9745 | -0.1051 | UNKNOWN | 2026-11-18T15:50 |
+| 16 | XRPUSDT | v3-donchian | 5.5 | 0.9397 | 0.9355 | -0.0297 | UNKNOWN | 2026-11-23T20:55 |
+| 17 | XRPUSDT | v3-donchian | 5.5 | 0.9298 | 0.9538 | +0.1239 | OTHER | 2026-11-27T14:35 |
